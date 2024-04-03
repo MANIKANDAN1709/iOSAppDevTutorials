@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66071A292BBDB551009836FB /* manikandanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A282BBDB551009836FB /* manikandanApp.swift */; };
-		66071A2B2BBDB551009836FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A2A2BBDB551009836FB /* ContentView.swift */; };
+		66071A2B2BBDB551009836FB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A2A2BBDB551009836FB /* MeetingView.swift */; };
 		66071A2D2BBDB551009836FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66071A2C2BBDB551009836FB /* Assets.xcassets */; };
 		66071A312BBDB551009836FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66071A302BBDB551009836FB /* Preview Assets.xcassets */; };
 		66071A3B2BBDB551009836FB /* manikandanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A3A2BBDB551009836FB /* manikandanTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		66071A252BBDB551009836FB /* manikandan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manikandan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66071A282BBDB551009836FB /* manikandanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manikandanApp.swift; sourceTree = "<group>"; };
-		66071A2A2BBDB551009836FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66071A2A2BBDB551009836FB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		66071A2C2BBDB551009836FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66071A2E2BBDB551009836FB /* manikandan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = manikandan.entitlements; sourceTree = "<group>"; };
 		66071A302BBDB551009836FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				66071A282BBDB551009836FB /* manikandanApp.swift */,
-				66071A2A2BBDB551009836FB /* ContentView.swift */,
+				66071A2A2BBDB551009836FB /* MeetingView.swift */,
 				66071A2C2BBDB551009836FB /* Assets.xcassets */,
 				66071A2E2BBDB551009836FB /* manikandan.entitlements */,
 				66071A2F2BBDB551009836FB /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66071A2B2BBDB551009836FB /* ContentView.swift in Sources */,
+				66071A2B2BBDB551009836FB /* MeetingView.swift in Sources */,
 				66071A292BBDB551009836FB /* manikandanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

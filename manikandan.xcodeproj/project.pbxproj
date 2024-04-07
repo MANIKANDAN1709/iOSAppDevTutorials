@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		66071A292BBDB551009836FB /* manikandanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A282BBDB551009836FB /* manikandanApp.swift */; };
 		66071A2B2BBDB551009836FB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A2A2BBDB551009836FB /* MeetingView.swift */; };
-		66071A2D2BBDB551009836FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66071A2C2BBDB551009836FB /* Assets.xcassets */; };
 		66071A312BBDB551009836FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66071A302BBDB551009836FB /* Preview Assets.xcassets */; };
 		66071A3B2BBDB551009836FB /* manikandanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A3A2BBDB551009836FB /* manikandanTests.swift */; };
 		66071A452BBDB551009836FB /* manikandanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A442BBDB551009836FB /* manikandanUITests.swift */; };
 		66071A472BBDB551009836FB /* manikandanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66071A462BBDB551009836FB /* manikandanUITestsLaunchTests.swift */; };
+		664D9D1B2BC02A42008E8B1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664D9D1A2BC02A42008E8B1D /* CardView.swift */; };
+		666663972BBFB9160045703B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666663962BBFB9160045703B /* Theme.swift */; };
+		666663992BBFBB020045703B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666663982BBFBB020045703B /* Assets.xcassets */; };
+		6666639B2BBFBF920045703B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666639A2BBFBF920045703B /* DailyScrum.swift */; };
+		66DDB2F22BC10C37006E2585 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 		66071A252BBDB551009836FB /* manikandan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manikandan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66071A282BBDB551009836FB /* manikandanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manikandanApp.swift; sourceTree = "<group>"; };
 		66071A2A2BBDB551009836FB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		66071A2C2BBDB551009836FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66071A2E2BBDB551009836FB /* manikandan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = manikandan.entitlements; sourceTree = "<group>"; };
 		66071A302BBDB551009836FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66071A362BBDB551009836FB /* manikandanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manikandanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +48,11 @@
 		66071A402BBDB551009836FB /* manikandanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manikandanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66071A442BBDB551009836FB /* manikandanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manikandanUITests.swift; sourceTree = "<group>"; };
 		66071A462BBDB551009836FB /* manikandanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manikandanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		664D9D1A2BC02A42008E8B1D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		666663962BBFB9160045703B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		666663982BBFBB020045703B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
+		6666639A2BBFBF920045703B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,10 @@
 		66071A272BBDB551009836FB /* manikandan */ = {
 			isa = PBXGroup;
 			children = (
+				666663952BBFB8C40045703B /* modals */,
 				66071A282BBDB551009836FB /* manikandanApp.swift */,
 				66071A2A2BBDB551009836FB /* MeetingView.swift */,
-				66071A2C2BBDB551009836FB /* Assets.xcassets */,
+				666663982BBFBB020045703B /* Assets.xcassets */,
 				66071A2E2BBDB551009836FB /* manikandan.entitlements */,
 				66071A2F2BBDB551009836FB /* Preview Content */,
 			);
@@ -127,6 +136,17 @@
 				66071A462BBDB551009836FB /* manikandanUITestsLaunchTests.swift */,
 			);
 			path = manikandanUITests;
+			sourceTree = "<group>";
+		};
+		666663952BBFB8C40045703B /* modals */ = {
+			isa = PBXGroup;
+			children = (
+				666663962BBFB9160045703B /* Theme.swift */,
+				6666639A2BBFBF920045703B /* DailyScrum.swift */,
+				664D9D1A2BC02A42008E8B1D /* CardView.swift */,
+				66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */,
+			);
+			path = modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66071A312BBDB551009836FB /* Preview Assets.xcassets in Resources */,
-				66071A2D2BBDB551009836FB /* Assets.xcassets in Resources */,
+				666663992BBFBB020045703B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6666639B2BBFBF920045703B /* DailyScrum.swift in Sources */,
+				66DDB2F22BC10C37006E2585 /* TrailingIconLabelStyle.swift in Sources */,
+				666663972BBFB9160045703B /* Theme.swift in Sources */,
 				66071A2B2BBDB551009836FB /* MeetingView.swift in Sources */,
 				66071A292BBDB551009836FB /* manikandanApp.swift in Sources */,
+				664D9D1B2BC02A42008E8B1D /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

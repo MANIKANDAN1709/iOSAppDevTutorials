@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  manikandan
-//
-//  Created by MANIKANDAN SAMINATHAN on 03/04/24.
-//
-
 import SwiftUI
 
 struct MeetingView: View {

@@ -17,6 +17,7 @@
 		666663972BBFB9160045703B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666663962BBFB9160045703B /* Theme.swift */; };
 		666663992BBFBB020045703B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666663982BBFBB020045703B /* Assets.xcassets */; };
 		6666639B2BBFBF920045703B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666639A2BBFBF920045703B /* DailyScrum.swift */; };
+		66690E392BC39FBE004E8F55 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66690E382BC39FBE004E8F55 /* ScrumsView.swift */; };
 		66DDB2F22BC10C37006E2585 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		666663962BBFB9160045703B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		666663982BBFBB020045703B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		6666639A2BBFBF920045703B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		66690E382BC39FBE004E8F55 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,8 @@
 			children = (
 				666663952BBFB8C40045703B /* modals */,
 				66071A282BBDB551009836FB /* manikandanApp.swift */,
+				66690E382BC39FBE004E8F55 /* ScrumsView.swift */,
+				664D9D1A2BC02A42008E8B1D /* CardView.swift */,
 				66071A2A2BBDB551009836FB /* MeetingView.swift */,
 				666663982BBFBB020045703B /* Assets.xcassets */,
 				66071A2E2BBDB551009836FB /* manikandan.entitlements */,
@@ -143,7 +147,6 @@
 			children = (
 				666663962BBFB9160045703B /* Theme.swift */,
 				6666639A2BBFBF920045703B /* DailyScrum.swift */,
-				664D9D1A2BC02A42008E8B1D /* CardView.swift */,
 				66DDB2F12BC10C37006E2585 /* TrailingIconLabelStyle.swift */,
 			);
 			path = modals;
@@ -282,6 +285,7 @@
 				6666639B2BBFBF920045703B /* DailyScrum.swift in Sources */,
 				66DDB2F22BC10C37006E2585 /* TrailingIconLabelStyle.swift in Sources */,
 				666663972BBFB9160045703B /* Theme.swift in Sources */,
+				66690E392BC39FBE004E8F55 /* ScrumsView.swift in Sources */,
 				66071A2B2BBDB551009836FB /* MeetingView.swift in Sources */,
 				66071A292BBDB551009836FB /* manikandanApp.swift in Sources */,
 				664D9D1B2BC02A42008E8B1D /* CardView.swift in Sources */,

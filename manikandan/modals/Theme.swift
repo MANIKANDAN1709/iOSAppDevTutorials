@@ -8,7 +8,6 @@ enum Theme: String{
             case .indigo, .magenta, .navy, .oxblood, .purple: return .white
             }
     }
-    var mainColor: Color {
-    return Color(rawValue)
-    }
+    var mainColor: Color {Color(rawValue)}
+    var name:String{rawValue.capitalized}
 }

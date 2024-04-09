@@ -3,10 +3,28 @@ import Foundation
 struct DailyScrum:Identifiable{
     let id = UUID()
     var title:String
-    var attendees:[String]
+    var attendees:[Attendee]
     var lengthInMinutes:Int
     var theme:Theme
+    init(title: String,attendees:[String],lengthInMinutes: Int, theme: Theme) {
+        self.title = title
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+        self.attendees = attendees.map { Attendee(name: $0) }
+    }
+
 }
+extension DailyScrum{
+    struct Attendee:Identifiable{
+        let id : UUID
+        let name:String
+        init(id: UUID = UUID(),name: String) {
+            self.id=id
+            self.name = name
+        }
+    }
+}
+
 
 extension DailyScrum {
     static let sampleData: [DailyScrum] =

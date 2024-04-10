@@ -5,12 +5,23 @@ struct DailyScrum:Identifiable{
     var title:String
     var attendees:[Attendee]
     var lengthInMinutes:Int
+    var lengthInMinutesAsDouble:Double{
+        get{
+            Double(lengthInMinutes)
+        }
+        set{
+            lengthInMinutes=Int(newValue)
+        }
+    }
     var theme:Theme
     init(title: String,attendees:[String],lengthInMinutes: Int, theme: Theme) {
         self.title = title
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
         self.attendees = attendees.map { Attendee(name: $0) }
+    }
+    static var emptryScrum:DailyScrum{
+        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
     }
 
 }
